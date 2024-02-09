@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Zhenqing Lang</title>
+<link rel="stylesheet" href="tailwind.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+  rel="stylesheet"
+/>
+
+  </head>
+  <body class="bg-themeBlack text-themeGray h-full p-2 mx-auto font-fira">
+    
+<div class="inner__container">
+  <!-- navbar -->
+  <div
+  class="flex justify-between items-center h-14 p-4 lg:w-11/12 lg:mx-auto border-b border-themeLine"
+>
+  <h3>Lang, Zhenqing</h3>
+  <div class="hidden lg:flex justify-between items-center space-x-5">
+    <div
+      id="about-me-item"
+      class="hover:text-themeWhite"
+      onclick="scrollToAboutMe()"
+    >
+      <a href="#about-me">About Me</a>
+    </div>
+    <div
+      id="work-exp-item"
+      class="hover:text-themeWhite"
+      onclick="scrollToWorkExp()"
+    >
+      <a href="#work-exp">Work Experience</a>
+    </div>
+    <!-- TODO(walkccc): Add sidebar animation
+    <div id="menu-icon" class="pt-2 block">
+      <i class="bx bx-menu text-3xl"></i>
+    </div>
+    <div id="x-icon" class="pt-2 hidden">
+      <i class="bx bx-x text-3xl"></i>
+    </div> 
+    -->
+  </div>
+</div>
+
+
+  <!-- content -->
+  <div id="content" class="content__container">
+  <!-- hero -->
+  <div class="flex flex-col justify-between px-6 py-36 h-screen">
+  <div>
+    <h3 class="text-lg leading-6 text-themeWhite pl-1 mb-2">Hi all. I am</h3>
+    <h6 class="text-6xl text-themeWhite">Zhenqing</h6>
+    <h6 class="text-6xl text-themeWhite">Lang</h6>
+    <h3 class="text-lg text-themeGreen pl-1">> Software Developer, "Investor"</h3>
+  </div>
+  <div class="text-sm space-y-4">
+    <h3>/* find my profile on GitHub: */</h3>
+    <p class="text-[0px]">
+      <span class="text-themeBlue text-sm">var </span>
+      <span class="text-themeGreen text-sm">github_link </span>
+      <span class="text-themeWhite text-sm">= </span>
+      <a href="https://github.com/Langzzzzzz">
+        <span class="text-themeRed text-sm">"https://github.com/Langzzzzzz"</span>
+      </a>
+      <span class="text-themeWhite text-sm">;</span>
+    </p>
+  </div>
+</div>
+
+
+  <!-- about me -->
+  <div id="about-me" class="section__title">About Me</div>
+<div class="section__container">
+  
+  <details class="group" open>
+    <summary class="section__summary">
+      <div class="section__summary__icons">
+        <i class="bx bx-chevron-right text-xl group-open:rotate-90 transition"></i>
+
+        <i class="bx bxs-folder mr-2 text-themeRed"></i>
+      </div>
+      <h3 class="section__summary__title">
+        Bio
+      </h3>
+    </summary>
+    
+    <div class="section__details">- Hi, I&#39;m Zhenqing Lang. I&#39;m pursuing my Master of Computer Science in Applied AI at Uottawa.</div>
+    
+    <div class="section__details">- I received my Bachelor of Computer Science from Carleton University and my passion for software engineering blossomed.during that time.</div>
+    
+  </details>
+  
+  <details class="group" open>
+    <summary class="section__summary">
+      <div class="section__summary__icons">
+        <i class="bx bx-chevron-right text-xl group-open:rotate-90 transition"></i>
+
+        <i class="bx bxs-folder mr-2 text-themeBlue"></i>
+      </div>
+      <h3 class="section__summary__title">
+        Fun Facts
+      </h3>
+    </summary>
+    
+    <div class="section__details">- Python is the first programming language I learned.</div>
+    
+    <div class="section__details">- I have a cute cat named Momo.</div>
+    
+    <div class="section__details">- I recently took up Rock climbing. It&#39;s so hard... but so much fun!</div>
+    
+    <div class="section__details">- &quot;While the weather is unpredictable, the seasons can be sensed.&quot;</div>
+    
+  </details>
+  
+  <details class="group" open>
+    <summary class="section__summary">
+      <div class="section__summary__icons">
+        <i class="bx bx-chevron-right text-xl group-open:rotate-90 transition"></i>
+
+        <i class="bx bxs-folder mr-2 text-themeGreen"></i>
+      </div>
+      <h3 class="section__summary__title">
+        Keywords
+      </h3>
+    </summary>
+    
+    <div class="section__details">- Coding, Traveling, Foodie, Reading, Trading, Mediation... ...</div>
+    
+  </details>
+  
+</div>
+
+
+  <!-- work experience -->
+  <div id="work-exp" class="section__title">Work Experience</div>
+<div class="section__container">
+  
+  <details class="group" open>
+    <summary class="section__summary">
+      <div class="section__summary__icons">
+        <i class="bx bx-chevron-right text-xl group-open:rotate-90 transition"></i>
+
+        <i class="bx bxl-sun text-themeRed mr-2"></i>
+        <!-- <div class="mr-2"><?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 37C31.1797 37 37 31.1797 37 24C37 16.8203 31.1797 11 24 11C16.8203 11 11 16.8203 11 24C11 31.1797 16.8203 37 24 37Z" fill="none" stroke="#333" stroke-width="4" stroke-linejoin="round"/><path d="M24 6C25.3807 6 26.5 4.88071 26.5 3.5C26.5 2.11929 25.3807 1 24 1C22.6193 1 21.5 2.11929 21.5 3.5C21.5 4.88071 22.6193 6 24 6Z" fill="#333"/><path d="M38.5 12C39.8807 12 41 10.8807 41 9.5C41 8.11929 39.8807 7 38.5 7C37.1193 7 36 8.11929 36 9.5C36 10.8807 37.1193 12 38.5 12Z" fill="#333"/><path d="M44.5 26.5C45.8807 26.5 47 25.3807 47 24C47 22.6193 45.8807 21.5 44.5 21.5C43.1193 21.5 42 22.6193 42 24C42 25.3807 43.1193 26.5 44.5 26.5Z" fill="#333"/><path d="M38.5 41C39.8807 41 41 39.8807 41 38.5C41 37.1193 39.8807 36 38.5 36C37.1193 36 36 37.1193 36 38.5C36 39.8807 37.1193 41 38.5 41Z" fill="#333"/><path d="M24 47C25.3807 47 26.5 45.8807 26.5 44.5C26.5 43.1193 25.3807 42 24 42C22.6193 42 21.5 43.1193 21.5 44.5C21.5 45.8807 22.6193 47 24 47Z" fill="#333"/><path d="M9.5 41C10.8807 41 12 39.8807 12 38.5C12 37.1193 10.8807 36 9.5 36C8.11929 36 7 37.1193 7 38.5C7 39.8807 8.11929 41 9.5 41Z" fill="#333"/><path d="M3.5 26.5C4.88071 26.5 6 25.3807 6 24C6 22.6193 4.88071 21.5 3.5 21.5C2.11929 21.5 1 22.6193 1 24C1 25.3807 2.11929 26.5 3.5 26.5Z" fill="#333"/><path d="M9.5 12C10.8807 12 12 10.8807 12 9.5C12 8.11929 10.8807 7 9.5 7C8.11929 7 7 8.11929 7 9.5C7 10.8807 8.11929 12 9.5 12Z" fill="#333"/></svg></div> -->
+      </div>
+      <h3 class="section__summary__title">
+        Teaching Assistant (Corrector)
+      </h3>
+    </summary>
+    <div class="section__details">
+      <!-- <div class="section__job-title">Teaching Assistant (Corrector)</div> -->
+      <div class="section__job-date">September 2022 - Present</div>
+      <div class="section__job-location">Ottawa, ON</div>
+      <ul>
+        
+        <li class="list-disc">
+          Marked, graded, calculated, and recorded grades of students&#39; assignments and tests.
+        </li>
+        
+        <li class="list-disc">
+          Provided constructive feedbacks and helped students better understand the mistakes.
+        </li>
+        
+      </ul>
+    </div>
+  </details>
+  
+  <details class="group" open>
+    <summary class="section__summary">
+      <div class="section__summary__icons">
+        <i class="bx bx-chevron-right text-xl group-open:rotate-90 transition"></i>
+
+        <i class="bx bxl-sun text-themeYellow mr-2"></i>
+        <!-- <div class="mr-2"><?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 37C31.1797 37 37 31.1797 37 24C37 16.8203 31.1797 11 24 11C16.8203 11 11 16.8203 11 24C11 31.1797 16.8203 37 24 37Z" fill="none" stroke="#333" stroke-width="4" stroke-linejoin="round"/><path d="M24 6C25.3807 6 26.5 4.88071 26.5 3.5C26.5 2.11929 25.3807 1 24 1C22.6193 1 21.5 2.11929 21.5 3.5C21.5 4.88071 22.6193 6 24 6Z" fill="#333"/><path d="M38.5 12C39.8807 12 41 10.8807 41 9.5C41 8.11929 39.8807 7 38.5 7C37.1193 7 36 8.11929 36 9.5C36 10.8807 37.1193 12 38.5 12Z" fill="#333"/><path d="M44.5 26.5C45.8807 26.5 47 25.3807 47 24C47 22.6193 45.8807 21.5 44.5 21.5C43.1193 21.5 42 22.6193 42 24C42 25.3807 43.1193 26.5 44.5 26.5Z" fill="#333"/><path d="M38.5 41C39.8807 41 41 39.8807 41 38.5C41 37.1193 39.8807 36 38.5 36C37.1193 36 36 37.1193 36 38.5C36 39.8807 37.1193 41 38.5 41Z" fill="#333"/><path d="M24 47C25.3807 47 26.5 45.8807 26.5 44.5C26.5 43.1193 25.3807 42 24 42C22.6193 42 21.5 43.1193 21.5 44.5C21.5 45.8807 22.6193 47 24 47Z" fill="#333"/><path d="M9.5 41C10.8807 41 12 39.8807 12 38.5C12 37.1193 10.8807 36 9.5 36C8.11929 36 7 37.1193 7 38.5C7 39.8807 8.11929 41 9.5 41Z" fill="#333"/><path d="M3.5 26.5C4.88071 26.5 6 25.3807 6 24C6 22.6193 4.88071 21.5 3.5 21.5C2.11929 21.5 1 22.6193 1 24C1 25.3807 2.11929 26.5 3.5 26.5Z" fill="#333"/><path d="M9.5 12C10.8807 12 12 10.8807 12 9.5C12 8.11929 10.8807 7 9.5 7C8.11929 7 7 8.11929 7 9.5C7 10.8807 8.11929 12 9.5 12Z" fill="#333"/></svg></div> -->
+      </div>
+      <h3 class="section__summary__title">
+        SW Automation Specialist
+      </h3>
+    </summary>
+    <div class="section__details">
+      <!-- <div class="section__job-title">SW Automation Specialist</div> -->
+      <div class="section__job-date">May 2021 - December 2021</div>
+      <div class="section__job-location">Ottawa, ON</div>
+      <ul>
+        
+        <li class="list-disc">
+          Developed new automation test cases by JavaScript, Docker, and Mocha to validate Model Driven Mediation applications
+        </li>
+        
+        <li class="list-disc">
+          Monitor the Selenium report routinely, followed by updating the results and discussing possible solutions with team lead twice a week
+        </li>
+        
+        <li class="list-disc">
+          Consulted and collaborated with other software testers to ensure efficiency and functionality
+        </li>
+        
+      </ul>
+    </div>
+  </details>
+  
+  <details class="group" open>
+    <summary class="section__summary">
+      <div class="section__summary__icons">
+        <i class="bx bx-chevron-right text-xl group-open:rotate-90 transition"></i>
+
+        <i class="bx bxl-sun text-themeYellow mr-2"></i>
+        <!-- <div class="mr-2"><?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 37C31.1797 37 37 31.1797 37 24C37 16.8203 31.1797 11 24 11C16.8203 11 11 16.8203 11 24C11 31.1797 16.8203 37 24 37Z" fill="none" stroke="#333" stroke-width="4" stroke-linejoin="round"/><path d="M24 6C25.3807 6 26.5 4.88071 26.5 3.5C26.5 2.11929 25.3807 1 24 1C22.6193 1 21.5 2.11929 21.5 3.5C21.5 4.88071 22.6193 6 24 6Z" fill="#333"/><path d="M38.5 12C39.8807 12 41 10.8807 41 9.5C41 8.11929 39.8807 7 38.5 7C37.1193 7 36 8.11929 36 9.5C36 10.8807 37.1193 12 38.5 12Z" fill="#333"/><path d="M44.5 26.5C45.8807 26.5 47 25.3807 47 24C47 22.6193 45.8807 21.5 44.5 21.5C43.1193 21.5 42 22.6193 42 24C42 25.3807 43.1193 26.5 44.5 26.5Z" fill="#333"/><path d="M38.5 41C39.8807 41 41 39.8807 41 38.5C41 37.1193 39.8807 36 38.5 36C37.1193 36 36 37.1193 36 38.5C36 39.8807 37.1193 41 38.5 41Z" fill="#333"/><path d="M24 47C25.3807 47 26.5 45.8807 26.5 44.5C26.5 43.1193 25.3807 42 24 42C22.6193 42 21.5 43.1193 21.5 44.5C21.5 45.8807 22.6193 47 24 47Z" fill="#333"/><path d="M9.5 41C10.8807 41 12 39.8807 12 38.5C12 37.1193 10.8807 36 9.5 36C8.11929 36 7 37.1193 7 38.5C7 39.8807 8.11929 41 9.5 41Z" fill="#333"/><path d="M3.5 26.5C4.88071 26.5 6 25.3807 6 24C6 22.6193 4.88071 21.5 3.5 21.5C2.11929 21.5 1 22.6193 1 24C1 25.3807 2.11929 26.5 3.5 26.5Z" fill="#333"/><path d="M9.5 12C10.8807 12 12 10.8807 12 9.5C12 8.11929 10.8807 7 9.5 7C8.11929 7 7 8.11929 7 9.5C7 10.8807 8.11929 12 9.5 12Z" fill="#333"/></svg></div> -->
+      </div>
+      <h3 class="section__summary__title">
+        Web UI Software Designer
+      </h3>
+    </summary>
+    <div class="section__details">
+      <!-- <div class="section__job-title">Web UI Software Designer</div> -->
+      <div class="section__job-date">September 2022 - May 2021</div>
+      <div class="section__job-location">Ottawa, ON</div>
+      <ul>
+        
+        <li class="list-disc">
+          Developed and maintained web GUI components and utilities built with React and JavaScript, and integrated components into web application called Showbook
+        </li>
+        
+        <li class="list-disc">
+          Removed deprecated components from the code, and replaced them with ones that reduced repository size by 20%
+        </li>
+        
+        <li class="list-disc">
+          Communicated effectively with testers and UX teams and discussed UI design details under a team- based Agile environment
+        </li>
+        
+      </ul>
+    </div>
+  </details>
+  
+  <details class="group" open>
+    <summary class="section__summary">
+      <div class="section__summary__icons">
+        <i class="bx bx-chevron-right text-xl group-open:rotate-90 transition"></i>
+
+        <i class="bx bxl-sun text-themeBlue mr-2"></i>
+        <!-- <div class="mr-2"><?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 37C31.1797 37 37 31.1797 37 24C37 16.8203 31.1797 11 24 11C16.8203 11 11 16.8203 11 24C11 31.1797 16.8203 37 24 37Z" fill="none" stroke="#333" stroke-width="4" stroke-linejoin="round"/><path d="M24 6C25.3807 6 26.5 4.88071 26.5 3.5C26.5 2.11929 25.3807 1 24 1C22.6193 1 21.5 2.11929 21.5 3.5C21.5 4.88071 22.6193 6 24 6Z" fill="#333"/><path d="M38.5 12C39.8807 12 41 10.8807 41 9.5C41 8.11929 39.8807 7 38.5 7C37.1193 7 36 8.11929 36 9.5C36 10.8807 37.1193 12 38.5 12Z" fill="#333"/><path d="M44.5 26.5C45.8807 26.5 47 25.3807 47 24C47 22.6193 45.8807 21.5 44.5 21.5C43.1193 21.5 42 22.6193 42 24C42 25.3807 43.1193 26.5 44.5 26.5Z" fill="#333"/><path d="M38.5 41C39.8807 41 41 39.8807 41 38.5C41 37.1193 39.8807 36 38.5 36C37.1193 36 36 37.1193 36 38.5C36 39.8807 37.1193 41 38.5 41Z" fill="#333"/><path d="M24 47C25.3807 47 26.5 45.8807 26.5 44.5C26.5 43.1193 25.3807 42 24 42C22.6193 42 21.5 43.1193 21.5 44.5C21.5 45.8807 22.6193 47 24 47Z" fill="#333"/><path d="M9.5 41C10.8807 41 12 39.8807 12 38.5C12 37.1193 10.8807 36 9.5 36C8.11929 36 7 37.1193 7 38.5C7 39.8807 8.11929 41 9.5 41Z" fill="#333"/><path d="M3.5 26.5C4.88071 26.5 6 25.3807 6 24C6 22.6193 4.88071 21.5 3.5 21.5C2.11929 21.5 1 22.6193 1 24C1 25.3807 2.11929 26.5 3.5 26.5Z" fill="#333"/><path d="M9.5 12C10.8807 12 12 10.8807 12 9.5C12 8.11929 10.8807 7 9.5 7C8.11929 7 7 8.11929 7 9.5C7 10.8807 8.11929 12 9.5 12Z" fill="#333"/></svg></div> -->
+      </div>
+      <h3 class="section__summary__title">
+        Teaching Assistant
+      </h3>
+    </summary>
+    <div class="section__details">
+      <!-- <div class="section__job-title">Teaching Assistant</div> -->
+      <div class="section__job-date">September 2020 - May 2021</div>
+      <div class="section__job-location">Ottawa, ON</div>
+      <ul>
+        
+        <li class="list-disc">
+          Led weekly office hours and provided one on one support to student to struggling with course material
+        </li>
+        
+        <li class="list-disc">
+          Troubleshooted students’ programs and explained the reason that may cause the error.
+        </li>
+        
+        <li class="list-disc">
+          Attended meetings with the professor to update the frequent problems encountered by students
+        </li>
+        
+      </ul>
+    </div>
+  </details>
+  
+</div>
+
+</div>
+
+
+  <!-- footer -->
+  <footer>
+  <div class="footer__container">
+    <p class="footer__copyright">Built by Zhenqing Lang © 2024</p>
+  </div>
+</footer>
+
+</div>
+
+  </body>
+  <script>
+  const menuIcon = document.getElementById('menu-icon');
+  const xIcon = document.getElementById('x-icon');
+  // const sidebar = document.getElementById('sidebar');
+  // const content = document.getElementById('content');
+
+  const toggleVisibility = () => {
+    menuIcon.classList.toggle('hidden');
+    menuIcon.classList.toggle('block');
+    xIcon.classList.toggle('hidden');
+    xIcon.classList.toggle('block');
+    // sidebar.classList.toggle('hidden');
+    // sidebar.classList.toggle('block');
+  };
+  menuIcon.addEventListener('click', () => toggleVisibility());
+  xIcon.addEventListener('click', () => toggleVisibility());
+
+  const scrollToAboutMe = (e) => {
+    let element = document.getElementById('about-me');
+    element.scrollIntoView({
+      block: 'start',
+      behavior: 'smooth',
+      inline: 'start',
+    });
+  };
+
+
+  const scrollToWorkExp = (e) => {
+    let element = document.getElementById('work-exp');
+    element.scrollIntoView({
+      block: 'start',
+      behavior: 'smooth',
+      inline: 'start',
+    });
+  };
+</script>
+
+</html>
