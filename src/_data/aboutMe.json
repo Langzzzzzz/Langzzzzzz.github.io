@@ -1,0 +1,27 @@
+[
+  {
+    "summary": "Bio",
+    "details": [
+      "- Hi, I'm Zhenqing Lang. I'm pursuing my Master of Computer Science in Applied AI at Uottawa.",
+      "- I received my Bachelor of Computer Science from Carleton University and my passion for software engineering blossomed.during that time."
+    ],
+    "color": "themeRed"
+  },
+  {
+    "summary": "Fun Facts",
+    "details": [
+      "- Python is the first programming language I learned.",
+      "- I have a cute cat named Momo.",
+      "- I recently took up Rock climbing. It's so hard... but so much fun!",
+      "- \"While the weather is unpredictable, the seasons can be sensed.\""
+    ],
+    "color": "themeBlue"
+  },
+  {
+    "summary": "Keywords",
+    "details": [
+      "- Coding, Traveling, Foodie, Reading, Trading, Mediation... ..."
+    ],
+    "color": "themeGreen"
+  }
+]

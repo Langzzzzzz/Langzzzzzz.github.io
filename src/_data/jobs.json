@@ -1,0 +1,57 @@
+[
+  {
+    "company": "University of Ottawa",
+    "title": "Teaching Assistant (Corrector)",
+    "date": "September 2022 - Present",
+    "location": "Ottawa, ON",
+    "descriptions": [
+      "Marked, graded, calculated, and recorded grades of students' assignments and tests.",
+      "Provided constructive feedbacks and helped students better understand the mistakes."
+    ],
+    "svgName": "sun",
+    "svgPath": "svgs/sun.svg",
+    "color": "themeRed"
+  },
+  {
+    "company": "Nokia",
+    "title": "SW Automation Specialist",
+    "date": "May 2021 - December 2021",
+    "location": "Ottawa, ON",
+    "descriptions": [
+        "Developed new automation test cases by JavaScript, Docker, and Mocha to validate Model Driven Mediation applications",
+        "Monitor the Selenium report routinely, followed by updating the results and discussing possible solutions with team lead twice a week",
+        "Consulted and collaborated with other software testers to ensure efficiency and functionality"
+    ],
+    "svgName": "sun",
+    "svgPath": "svgs/sun.svg",
+    "color": "themeYellow"
+  },
+  {
+    "company": "Nokia",
+    "title": "Web UI Software Designer",
+    "date": "September 2022 - May 2021",
+    "location": "Ottawa, ON",
+    "descriptions": [
+        "Developed and maintained web GUI components and utilities built with React and JavaScript, and integrated components into web application called Showbook",
+        "Removed deprecated components from the code, and replaced them with ones that reduced repository size by 20%",
+        "Communicated effectively with testers and UX teams and discussed UI design details under a team- based Agile environment"
+    ],
+    "svgName": "sun",
+    "svgPath": "svgs/sun.svg",
+    "color": "themeYellow"
+  },
+  {
+    "company": "Carleton University",
+    "title": "Teaching Assistant",
+    "date": "September 2020 - May 2021",
+    "location": "Ottawa, ON",
+    "descriptions": [
+        "Led weekly office hours and provided one on one support to student to struggling with course material",
+        "Troubleshooted students’ programs and explained the reason that may cause the error.",
+        "Attended meetings with the professor to update the frequent problems encountered by students"
+    ],
+    "svgName": "sun",
+    "svgPath": "svgs/sun.svg",
+    "color": "themeBlue"
+  }
+]
